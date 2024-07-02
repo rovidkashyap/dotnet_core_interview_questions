@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspnet_core", "aspnet_core", "{C034C772-7C0F-4560-981C-9E47A4C4A731}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - .Net Core vs .Net Framework", "1 - .Net Core vs .Net Framework", "{34B8BA2F-1BCB-4F2D-AF3C-C5F8D68919FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet_core_vs_dotnet_framework", "aspnet_core\1 - .Net Core vs .Net Framework\dotnet_core_vs_dotnet_framework\dotnet_core_vs_dotnet_framework.csproj", "{B7FFDF90-F22E-4D52-8650-3AC4B68FF79C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7FFDF90-F22E-4D52-8650-3AC4B68FF79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FFDF90-F22E-4D52-8650-3AC4B68FF79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7FFDF90-F22E-4D52-8650-3AC4B68FF79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7FFDF90-F22E-4D52-8650-3AC4B68FF79C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34B8BA2F-1BCB-4F2D-AF3C-C5F8D68919FE} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{B7FFDF90-F22E-4D52-8650-3AC4B68FF79C} = {34B8BA2F-1BCB-4F2D-AF3C-C5F8D68919FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
+	EndGlobalSection
+EndGlobal
