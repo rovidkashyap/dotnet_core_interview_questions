@@ -33,6 +33,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Middleware vs Filters i
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "middleware_and_filters", "aspnet_core\7 - Middleware vs Filters in ASP.Net Core\middleware_and_filters\middleware_and_filters.csproj", "{5152DF37-88CA-4D39-8185-2841998FC96D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 - Core CLR in ASP.Net Core", "8 - Core CLR in ASP.Net Core", "{A77520B7-53BC-4EA1-B5B7-44CD3B7658DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core_clr_in_aspnet_core", "aspnet_core\8 - Core CLR in ASP.Net Core\core_clr_in_aspnet_core\core_clr_in_aspnet_core.csproj", "{F427C0A6-20DF-4BD2-9FCD-47A8353BED06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,10 @@ Global
 		{5152DF37-88CA-4D39-8185-2841998FC96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5152DF37-88CA-4D39-8185-2841998FC96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5152DF37-88CA-4D39-8185-2841998FC96D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F427C0A6-20DF-4BD2-9FCD-47A8353BED06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F427C0A6-20DF-4BD2-9FCD-47A8353BED06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F427C0A6-20DF-4BD2-9FCD-47A8353BED06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F427C0A6-20DF-4BD2-9FCD-47A8353BED06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +94,8 @@ Global
 		{CA3283FC-51D3-4639-B27A-D2B44F33A3BF} = {CDE5B17C-17E9-43A7-838E-7794DC3104DA}
 		{1297EA18-9BCE-4B9A-BD39-72F85A512941} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{5152DF37-88CA-4D39-8185-2841998FC96D} = {1297EA18-9BCE-4B9A-BD39-72F85A512941}
+		{A77520B7-53BC-4EA1-B5B7-44CD3B7658DB} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{F427C0A6-20DF-4BD2-9FCD-47A8353BED06} = {A77520B7-53BC-4EA1-B5B7-44CD3B7658DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
