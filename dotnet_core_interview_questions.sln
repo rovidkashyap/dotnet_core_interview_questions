@@ -29,6 +29,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Caching in ASP.Net Core
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "caching_in_aspnet_core", "aspnet_core\6 - Caching in ASP.Net Core\caching_in_aspnet_core\caching_in_aspnet_core.csproj", "{CA3283FC-51D3-4639-B27A-D2B44F33A3BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Middleware vs Filters in ASP.Net Core", "7 - Middleware vs Filters in ASP.Net Core", "{1297EA18-9BCE-4B9A-BD39-72F85A512941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "middleware_and_filters", "aspnet_core\7 - Middleware vs Filters in ASP.Net Core\middleware_and_filters\middleware_and_filters.csproj", "{5152DF37-88CA-4D39-8185-2841998FC96D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,10 @@ Global
 		{CA3283FC-51D3-4639-B27A-D2B44F33A3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA3283FC-51D3-4639-B27A-D2B44F33A3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA3283FC-51D3-4639-B27A-D2B44F33A3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5152DF37-88CA-4D39-8185-2841998FC96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5152DF37-88CA-4D39-8185-2841998FC96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5152DF37-88CA-4D39-8185-2841998FC96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5152DF37-88CA-4D39-8185-2841998FC96D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,8 @@ Global
 		{2B2DF64F-6152-4052-9AD9-C74DA6811BF8} = {09F1E73E-8867-4315-B7B7-1B9560DAF8BD}
 		{CDE5B17C-17E9-43A7-838E-7794DC3104DA} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{CA3283FC-51D3-4639-B27A-D2B44F33A3BF} = {CDE5B17C-17E9-43A7-838E-7794DC3104DA}
+		{1297EA18-9BCE-4B9A-BD39-72F85A512941} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{5152DF37-88CA-4D39-8185-2841998FC96D} = {1297EA18-9BCE-4B9A-BD39-72F85A512941}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
