@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Kestrel and IIS in ASP.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kestrel_and_iis_server", "aspnet_core\3 - Kestrel and IIS in ASP.Net Core\kestrel_and_iis_server\kestrel_and_iis_server.csproj", "{34AD1B25-333A-4854-9BFA-1455A9E8E863}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Middleware in ASP.Net Core", "4 - Middleware in ASP.Net Core", "{765F8EC0-D2C1-4B07-A26E-F70EDC08432F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "middleware_in_aspnet_core", "aspnet_core\4 - Middleware in ASP.Net Core\middleware_in_aspnet_core\middleware_in_aspnet_core.csproj", "{5B057A96-BB35-41AF-88CC-C4F82D0B0631}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{34AD1B25-333A-4854-9BFA-1455A9E8E863}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34AD1B25-333A-4854-9BFA-1455A9E8E863}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34AD1B25-333A-4854-9BFA-1455A9E8E863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B057A96-BB35-41AF-88CC-C4F82D0B0631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B057A96-BB35-41AF-88CC-C4F82D0B0631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B057A96-BB35-41AF-88CC-C4F82D0B0631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B057A96-BB35-41AF-88CC-C4F82D0B0631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,8 @@ Global
 		{74E294E3-B606-4959-B0C6-81B8A38AB0C4} = {CDD5FD6F-0E3E-42C5-8AFA-4ACB6F09641A}
 		{52F942E6-E8FA-4475-90E0-E14114C436F9} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{34AD1B25-333A-4854-9BFA-1455A9E8E863} = {52F942E6-E8FA-4475-90E0-E14114C436F9}
+		{765F8EC0-D2C1-4B07-A26E-F70EDC08432F} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{5B057A96-BB35-41AF-88CC-C4F82D0B0631} = {765F8EC0-D2C1-4B07-A26E-F70EDC08432F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
