@@ -81,6 +81,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19 - IHostedService in ASP.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ihostedservice_in_aspnet_core", "aspnet_core\19 - IHostedService in ASP.Net Core\ihostedservice_in_aspnet_core\ihostedservice_in_aspnet_core.csproj", "{411CB983-CAE5-4EBB-9676-B7325BFB9A3E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 - .Net Core vs .Net Standard", "20 - .Net Core vs .Net Standard", "{71229552-E562-49CD-A6C8-F0EAC0A1BDAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet_core_vs_dotnet_standard", "aspnet_core\20 - .Net Core vs .Net Standard\dotnet_core_vs_dotnet_standard\dotnet_core_vs_dotnet_standard.csproj", "{901D4A8A-9552-4156-9660-E40D4E8F2186}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +167,10 @@ Global
 		{411CB983-CAE5-4EBB-9676-B7325BFB9A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{411CB983-CAE5-4EBB-9676-B7325BFB9A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{411CB983-CAE5-4EBB-9676-B7325BFB9A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901D4A8A-9552-4156-9660-E40D4E8F2186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901D4A8A-9552-4156-9660-E40D4E8F2186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901D4A8A-9552-4156-9660-E40D4E8F2186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901D4A8A-9552-4156-9660-E40D4E8F2186}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -206,6 +214,8 @@ Global
 		{14B4C864-7B5A-48A9-874F-FC28B94797BC} = {DB5062D9-E516-4125-AC80-64EEDEED662A}
 		{4B5A3AAE-4C76-4F5A-86DC-8DE5B5D2E9FB} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{411CB983-CAE5-4EBB-9676-B7325BFB9A3E} = {4B5A3AAE-4C76-4F5A-86DC-8DE5B5D2E9FB}
+		{71229552-E562-49CD-A6C8-F0EAC0A1BDAA} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{901D4A8A-9552-4156-9660-E40D4E8F2186} = {71229552-E562-49CD-A6C8-F0EAC0A1BDAA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
