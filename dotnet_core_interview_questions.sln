@@ -73,6 +73,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17 - Hosting Model in ASP.N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hosting_models", "aspnet_core\17 - Hosting Models in ASP.Net Core\hosting_models\hosting_models.csproj", "{898C081E-5679-45E6-981E-D49C4BC91F05}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18 - Program.cs File in ASP.Net Core", "18 - Program.cs File in ASP.Net Core", "{DB5062D9-E516-4125-AC80-64EEDEED662A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "programcs_file_aspnet_core", "aspnet_core\18 - Program.cs File in ASP.Net Core\programcs_file_aspnet_core\programcs_file_aspnet_core.csproj", "{14B4C864-7B5A-48A9-874F-FC28B94797BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,10 @@ Global
 		{898C081E-5679-45E6-981E-D49C4BC91F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{898C081E-5679-45E6-981E-D49C4BC91F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{898C081E-5679-45E6-981E-D49C4BC91F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B4C864-7B5A-48A9-874F-FC28B94797BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B4C864-7B5A-48A9-874F-FC28B94797BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B4C864-7B5A-48A9-874F-FC28B94797BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B4C864-7B5A-48A9-874F-FC28B94797BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -186,6 +194,8 @@ Global
 		{51F4593B-8620-46BB-854B-16DC46BD3D54} = {1D6DAFAD-3AD3-4153-AC02-08FCA58268C7}
 		{0BDC613C-1E37-4E4B-8613-D4AE68F177FE} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{898C081E-5679-45E6-981E-D49C4BC91F05} = {0BDC613C-1E37-4E4B-8613-D4AE68F177FE}
+		{DB5062D9-E516-4125-AC80-64EEDEED662A} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{14B4C864-7B5A-48A9-874F-FC28B94797BC} = {DB5062D9-E516-4125-AC80-64EEDEED662A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
