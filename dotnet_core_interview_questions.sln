@@ -89,6 +89,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "21 - Synchronous and Asynch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "synchronous_and_asynchronous", "aspnet_core\21 - Synchronous and Asynchronous\synchronous_and_asynchronous\synchronous_and_asynchronous.csproj", "{752060D1-27B9-436B-94B4-147308DF3D74}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "22 - Exception Handling in ASP.Net Core", "22 - Exception Handling in ASP.Net Core", "{C54FAED3-692F-41E3-A29A-14AB7487EEE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exception_handling", "aspnet_core\22 - Exception Handling in ASP.Net Core\exception_handling\exception_handling.csproj", "{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +183,10 @@ Global
 		{752060D1-27B9-436B-94B4-147308DF3D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{752060D1-27B9-436B-94B4-147308DF3D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{752060D1-27B9-436B-94B4-147308DF3D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -226,6 +234,8 @@ Global
 		{901D4A8A-9552-4156-9660-E40D4E8F2186} = {71229552-E562-49CD-A6C8-F0EAC0A1BDAA}
 		{9D89DDDF-B3B1-4551-90DB-55B9AFDB4661} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{752060D1-27B9-436B-94B4-147308DF3D74} = {9D89DDDF-B3B1-4551-90DB-55B9AFDB4661}
+		{C54FAED3-692F-41E3-A29A-14AB7487EEE0} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE} = {C54FAED3-692F-41E3-A29A-14AB7487EEE0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
