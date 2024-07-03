@@ -1,0 +1,23 @@
+﻿
+<form asp-controller="Account" asp-acton="Login" method="post">
+
+    <input type="hidden" name="__RequestVerificationToken" value="@Html.AntiForgeryToken()" />
+
+    @Html.AntiForgeryToken()
+    <input type="text" name="username" />
+    <input type="password" name="password" />
+    <button type="submit">Login</button>
+</form>
+
+$.ajax({
+    url: '/account/login',
+    type: 'post',
+    data:{
+        username: 'example',
+        password: 'password',
+        __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()
+    },
+    success: function(response) {
+        // Handle the response
+    }
+});
