@@ -26,10 +26,10 @@
 24. How do you implement and use `DDD` pattern in .Net Core? <br />
 25. What are `SOLID Principles` in .Net Core? <br />
 26. How do you implement `Clean Architecture` in ASP.Net Core? <br />
-27. How do you Implement and use `Repository Pattern` in .Net Core? <br />
-28. Explain the concept of `Inversion of Control` in .Net Core? <br />
-29. Explain the concept of `Eager Loading` and `Lazy Loading` in Entity Framework Core?  <br />
-30. How do you Implement `Fluent API` in Entity Framework Core? <br />
+27. Explain the concept of `Inversion of Control` in .Net Core? <br />
+28. Explain the concept of `Eager Loading` and `Lazy Loading` in Entity Framework Core?  <br />
+29. How do you Implement `Fluent API` in Entity Framework Core? <br />
+30. Explain the Concept of `AutoMapper` in ASP.Net Core? <br />
 
 This is a List of Questions mostly asked during the interview of Dot Net Developer Profile. Subject to Copyright.
 
