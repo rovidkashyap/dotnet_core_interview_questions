@@ -136,6 +136,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "29 - Fluent API in EF Core"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fluent_api_in_efcore", "aspnet_core\29 - Fluent API in EF Core\fluent_api_in_efcore\fluent_api_in_efcore.csproj", "{6AADAD3C-2500-4011-965F-699DF592E995}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 - AutoMapper in ASP.Net Core", "30 - AutoMapper in ASP.Net Core", "{088BB3B8-5C92-4291-8E3B-1AAA2D1F9FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "automapper_in_aspnet_core", "aspnet_core\30  - AutoMapper in ASP.Net Core\automapper_in_aspnet_core\automapper_in_aspnet_core.csproj", "{119A92B7-2A0E-4AE7-8AB4-809154258807}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -282,6 +286,10 @@ Global
 		{6AADAD3C-2500-4011-965F-699DF592E995}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AADAD3C-2500-4011-965F-699DF592E995}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AADAD3C-2500-4011-965F-699DF592E995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119A92B7-2A0E-4AE7-8AB4-809154258807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119A92B7-2A0E-4AE7-8AB4-809154258807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119A92B7-2A0E-4AE7-8AB4-809154258807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119A92B7-2A0E-4AE7-8AB4-809154258807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -351,6 +359,8 @@ Global
 		{EDF0C625-6BFA-4872-AD61-71224F6F775C} = {7A2C5CCD-0FEB-4F2F-A796-5244A465B624}
 		{A4C90203-5F99-4084-B945-FEF96D5587AB} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{6AADAD3C-2500-4011-965F-699DF592E995} = {A4C90203-5F99-4084-B945-FEF96D5587AB}
+		{088BB3B8-5C92-4291-8E3B-1AAA2D1F9FED} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{119A92B7-2A0E-4AE7-8AB4-809154258807} = {088BB3B8-5C92-4291-8E3B-1AAA2D1F9FED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
