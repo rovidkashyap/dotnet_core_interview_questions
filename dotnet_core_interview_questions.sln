@@ -107,6 +107,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Pattern.Infrastructure"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Pattern.API", "aspnet_core\24 - DDD Pattern in ASP.Net Core\DDD_Pattern.API\DDD_Pattern.API.csproj", "{F53062FB-9215-47D5-A215-3C6E408B4690}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "25 - SOLID Principles in ASP.Net Core", "25 - SOLID Principles in ASP.Net Core", "{70552F69-8993-466F-AD49-CDF134644111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solid_principles", "aspnet_core\25 - SOLID Principles in ASP.Net Core\solid_principles\solid_principles.csproj", "{961441A8-7269-454E-B388-C33C478EE6BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -221,6 +225,10 @@ Global
 		{F53062FB-9215-47D5-A215-3C6E408B4690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F53062FB-9215-47D5-A215-3C6E408B4690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F53062FB-9215-47D5-A215-3C6E408B4690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961441A8-7269-454E-B388-C33C478EE6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961441A8-7269-454E-B388-C33C478EE6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961441A8-7269-454E-B388-C33C478EE6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961441A8-7269-454E-B388-C33C478EE6BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -277,6 +285,8 @@ Global
 		{EF417905-D573-4F61-8437-4BEE5EB72518} = {67741AEE-E4EA-4176-8A5B-BBEAA51C3F83}
 		{7DBEC2CE-5129-4494-8A1C-9CD972CE3C07} = {67741AEE-E4EA-4176-8A5B-BBEAA51C3F83}
 		{F53062FB-9215-47D5-A215-3C6E408B4690} = {67741AEE-E4EA-4176-8A5B-BBEAA51C3F83}
+		{70552F69-8993-466F-AD49-CDF134644111} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{961441A8-7269-454E-B388-C33C478EE6BE} = {70552F69-8993-466F-AD49-CDF134644111}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
