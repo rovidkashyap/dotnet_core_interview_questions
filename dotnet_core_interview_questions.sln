@@ -111,6 +111,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "25 - SOLID Principles in AS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solid_principles", "aspnet_core\25 - SOLID Principles in ASP.Net Core\solid_principles\solid_principles.csproj", "{961441A8-7269-454E-B388-C33C478EE6BE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "26 - Clean Architecture in ASP.Net Core", "26 - Clean Architecture in ASP.Net Core", "{3BD1106E-03B4-4E15-8569-47BBC0531D1A}"
+	ProjectSection(SolutionItems) = preProject
+		aspnet_core\26 - Clean Architecture in ASP.Net Core\WebApi\README.txt = aspnet_core\26 - Clean Architecture in ASP.Net Core\WebApi\README.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "aspnet_core\26 - Clean Architecture in ASP.Net Core\Core\Core.csproj", "{3320BE30-1649-4120-975B-33ED19C6F922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "aspnet_core\26 - Clean Architecture in ASP.Net Core\Application\Application.csproj", "{E1EC9353-4458-433A-95B2-99DCC41B8908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "aspnet_core\26 - Clean Architecture in ASP.Net Core\Infrastructure\Infrastructure.csproj", "{D55DEC45-5F84-4462-A280-49BA781F7D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "aspnet_core\26 - Clean Architecture in ASP.Net Core\WebApi\WebApi.csproj", "{A87B3742-0103-47A8-AE74-442D53B689CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -229,6 +242,22 @@ Global
 		{961441A8-7269-454E-B388-C33C478EE6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{961441A8-7269-454E-B388-C33C478EE6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{961441A8-7269-454E-B388-C33C478EE6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3320BE30-1649-4120-975B-33ED19C6F922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3320BE30-1649-4120-975B-33ED19C6F922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3320BE30-1649-4120-975B-33ED19C6F922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3320BE30-1649-4120-975B-33ED19C6F922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1EC9353-4458-433A-95B2-99DCC41B8908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EC9353-4458-433A-95B2-99DCC41B8908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EC9353-4458-433A-95B2-99DCC41B8908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EC9353-4458-433A-95B2-99DCC41B8908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55DEC45-5F84-4462-A280-49BA781F7D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55DEC45-5F84-4462-A280-49BA781F7D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55DEC45-5F84-4462-A280-49BA781F7D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55DEC45-5F84-4462-A280-49BA781F7D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87B3742-0103-47A8-AE74-442D53B689CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87B3742-0103-47A8-AE74-442D53B689CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87B3742-0103-47A8-AE74-442D53B689CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87B3742-0103-47A8-AE74-442D53B689CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -287,6 +316,11 @@ Global
 		{F53062FB-9215-47D5-A215-3C6E408B4690} = {67741AEE-E4EA-4176-8A5B-BBEAA51C3F83}
 		{70552F69-8993-466F-AD49-CDF134644111} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{961441A8-7269-454E-B388-C33C478EE6BE} = {70552F69-8993-466F-AD49-CDF134644111}
+		{3BD1106E-03B4-4E15-8569-47BBC0531D1A} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{3320BE30-1649-4120-975B-33ED19C6F922} = {3BD1106E-03B4-4E15-8569-47BBC0531D1A}
+		{E1EC9353-4458-433A-95B2-99DCC41B8908} = {3BD1106E-03B4-4E15-8569-47BBC0531D1A}
+		{D55DEC45-5F84-4462-A280-49BA781F7D12} = {3BD1106E-03B4-4E15-8569-47BBC0531D1A}
+		{A87B3742-0103-47A8-AE74-442D53B689CE} = {3BD1106E-03B4-4E15-8569-47BBC0531D1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
