@@ -49,6 +49,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 - Session and State Mana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session_and_state_management", "aspnet_core\11 - Session and State Management\session_and_state_management\session_and_state_management.csproj", "{70C3A19E-4723-4047-A93A-97D70212F01B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 - Routing in ASP.Net Core", "12 - Routing in ASP.Net Core", "{24DCC223-920B-4F58-BBB9-F0120FC336B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "routing_in_aspnet_core", "aspnet_core\12 - Routing in ASP.Net Core\routing_in_aspnet_core\routing_in_aspnet_core.csproj", "{73FB237D-0B12-4B5A-B2E9-4CBB12E0E022}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,10 @@ Global
 		{70C3A19E-4723-4047-A93A-97D70212F01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70C3A19E-4723-4047-A93A-97D70212F01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70C3A19E-4723-4047-A93A-97D70212F01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FB237D-0B12-4B5A-B2E9-4CBB12E0E022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FB237D-0B12-4B5A-B2E9-4CBB12E0E022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FB237D-0B12-4B5A-B2E9-4CBB12E0E022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FB237D-0B12-4B5A-B2E9-4CBB12E0E022}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,7 +133,9 @@ Global
 		{DC5EC4DE-92E6-4D07-BBC0-4B13EA334B3E} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{68BC4EFD-0C3A-43A8-B57A-4AF0B8EABF42} = {DC5EC4DE-92E6-4D07-BBC0-4B13EA334B3E}
 		{6D2B550D-8A06-4D61-9709-D91D33F7CB96} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
-		{70C3A19E-4723-4047-A93A-97D70212F01B} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{70C3A19E-4723-4047-A93A-97D70212F01B} = {6D2B550D-8A06-4D61-9709-D91D33F7CB96}
+		{24DCC223-920B-4F58-BBB9-F0120FC336B1} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{73FB237D-0B12-4B5A-B2E9-4CBB12E0E022} = {24DCC223-920B-4F58-BBB9-F0120FC336B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
