@@ -93,6 +93,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "22 - Exception Handling in 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exception_handling", "aspnet_core\22 - Exception Handling in ASP.Net Core\exception_handling\exception_handling.csproj", "{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23 - CQRS in ASP.Net Core", "23 - CQRS in ASP.Net Core", "{9F532D28-626F-403B-BA40-BC2C98E82678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cqrs_pattern_in_dotnet_core", "aspnet_core\23 - CQRS in ASP.Net Core\cqrs_pattern_in_dotnet_core\cqrs_pattern_in_dotnet_core.csproj", "{A023405A-77D3-4A51-A458-B05FA1392724}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -187,6 +191,10 @@ Global
 		{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A023405A-77D3-4A51-A458-B05FA1392724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A023405A-77D3-4A51-A458-B05FA1392724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A023405A-77D3-4A51-A458-B05FA1392724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A023405A-77D3-4A51-A458-B05FA1392724}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -236,6 +244,8 @@ Global
 		{752060D1-27B9-436B-94B4-147308DF3D74} = {9D89DDDF-B3B1-4551-90DB-55B9AFDB4661}
 		{C54FAED3-692F-41E3-A29A-14AB7487EEE0} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE} = {C54FAED3-692F-41E3-A29A-14AB7487EEE0}
+		{9F532D28-626F-403B-BA40-BC2C98E82678} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{A023405A-77D3-4A51-A458-B05FA1392724} = {9F532D28-626F-403B-BA40-BC2C98E82678}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}

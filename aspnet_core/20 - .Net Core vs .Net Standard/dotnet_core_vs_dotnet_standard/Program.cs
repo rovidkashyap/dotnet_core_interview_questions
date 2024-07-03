@@ -1,4 +1,9 @@
-﻿/*
+﻿
+static void Main(string[] args)
+{
+
+}
+/*
  
     Choosing between .NET Core and .NET Standard for your class library project depends on the target 
     platforms and the intended usage scenarios. Here’s a breakdown of when to use each:

@@ -1,4 +1,5 @@
-﻿/*
+﻿static void Main(string[] args) { }
+/*
 
 ASP.NET Core supports several hosting models, each suited for different deployment scenarios and 
 requirements. These hosting models provide flexibility in how ASP.NET Core applications are deployed, 
