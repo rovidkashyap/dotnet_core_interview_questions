@@ -128,6 +128,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "27 - Inversion Of Control i
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inversion_of_control", "aspnet_core\27 - Inversion Of Control in ASP.Net Core\inversion_of_control\inversion_of_control.csproj", "{DFE84524-E1AC-4B52-87B5-91B05E43572D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "28 - Eager vs Lazy Loading in EF Core", "28 - Eager vs Lazy Loading in EF Core", "{7A2C5CCD-0FEB-4F2F-A796-5244A465B624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eager_vs_lazy_loading", "aspnet_core\28 - Eager vs Lazy Loading in EF Core\eager_vs_lazy_loading\eager_vs_lazy_loading.csproj", "{EDF0C625-6BFA-4872-AD61-71224F6F775C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -266,6 +270,10 @@ Global
 		{DFE84524-E1AC-4B52-87B5-91B05E43572D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFE84524-E1AC-4B52-87B5-91B05E43572D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFE84524-E1AC-4B52-87B5-91B05E43572D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF0C625-6BFA-4872-AD61-71224F6F775C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF0C625-6BFA-4872-AD61-71224F6F775C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF0C625-6BFA-4872-AD61-71224F6F775C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF0C625-6BFA-4872-AD61-71224F6F775C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -331,6 +339,8 @@ Global
 		{A87B3742-0103-47A8-AE74-442D53B689CE} = {3BD1106E-03B4-4E15-8569-47BBC0531D1A}
 		{C85254B1-D6D6-4C3F-97B1-7D21500FA490} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{DFE84524-E1AC-4B52-87B5-91B05E43572D} = {C85254B1-D6D6-4C3F-97B1-7D21500FA490}
+		{7A2C5CCD-0FEB-4F2F-A796-5244A465B624} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{EDF0C625-6BFA-4872-AD61-71224F6F775C} = {7A2C5CCD-0FEB-4F2F-A796-5244A465B624}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
