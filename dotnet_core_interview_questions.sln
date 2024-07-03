@@ -7,83 +7,83 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspnet_core", "aspnet_core"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - .Net Core vs .Net Framework", "1 - .Net Core vs .Net Framework", "{34B8BA2F-1BCB-4F2D-AF3C-C5F8D68919FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet_core_vs_dotnet_framework", "aspnet_core\1 - .Net Core vs .Net Framework\dotnet_core_vs_dotnet_framework\dotnet_core_vs_dotnet_framework.csproj", "{B7FFDF90-F22E-4D52-8650-3AC4B68FF79C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet_core_vs_dotnet_framework", "aspnet_core\1 - .Net Core vs .Net Framework\dotnet_core_vs_dotnet_framework\dotnet_core_vs_dotnet_framework.csproj", "{B7FFDF90-F22E-4D52-8650-3AC4B68FF79C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Dependency Injection in .Net Core", "2 - Dependency Injection in .Net Core", "{CDD5FD6F-0E3E-42C5-8AFA-4ACB6F09641A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dependency_injection", "aspnet_core\2 - Dependency Injection in .Net Core\dependency_injection\dependency_injection.csproj", "{74E294E3-B606-4959-B0C6-81B8A38AB0C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dependency_injection", "aspnet_core\2 - Dependency Injection in .Net Core\dependency_injection\dependency_injection.csproj", "{74E294E3-B606-4959-B0C6-81B8A38AB0C4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Kestrel and IIS in ASP.Net Core", "3 - Kestrel and IIS in ASP.Net Core", "{52F942E6-E8FA-4475-90E0-E14114C436F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kestrel_and_iis_server", "aspnet_core\3 - Kestrel and IIS in ASP.Net Core\kestrel_and_iis_server\kestrel_and_iis_server.csproj", "{34AD1B25-333A-4854-9BFA-1455A9E8E863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kestrel_and_iis_server", "aspnet_core\3 - Kestrel and IIS in ASP.Net Core\kestrel_and_iis_server\kestrel_and_iis_server.csproj", "{34AD1B25-333A-4854-9BFA-1455A9E8E863}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Middleware in ASP.Net Core", "4 - Middleware in ASP.Net Core", "{765F8EC0-D2C1-4B07-A26E-F70EDC08432F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "middleware_in_aspnet_core", "aspnet_core\4 - Middleware in ASP.Net Core\middleware_in_aspnet_core\middleware_in_aspnet_core.csproj", "{5B057A96-BB35-41AF-88CC-C4F82D0B0631}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "middleware_in_aspnet_core", "aspnet_core\4 - Middleware in ASP.Net Core\middleware_in_aspnet_core\middleware_in_aspnet_core.csproj", "{5B057A96-BB35-41AF-88CC-C4F82D0B0631}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Garbage Collection in ASP.Net Core", "5 - Garbage Collection in ASP.Net Core", "{09F1E73E-8867-4315-B7B7-1B9560DAF8BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "garbage_collection", "aspnet_core\5 - Garbage Collection in ASP.Net Core\garbage_collection\garbage_collection.csproj", "{2B2DF64F-6152-4052-9AD9-C74DA6811BF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "garbage_collection", "aspnet_core\5 - Garbage Collection in ASP.Net Core\garbage_collection\garbage_collection.csproj", "{2B2DF64F-6152-4052-9AD9-C74DA6811BF8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Caching in ASP.Net Core", "6 - Caching in ASP.Net Core", "{CDE5B17C-17E9-43A7-838E-7794DC3104DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "caching_in_aspnet_core", "aspnet_core\6 - Caching in ASP.Net Core\caching_in_aspnet_core\caching_in_aspnet_core.csproj", "{CA3283FC-51D3-4639-B27A-D2B44F33A3BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "caching_in_aspnet_core", "aspnet_core\6 - Caching in ASP.Net Core\caching_in_aspnet_core\caching_in_aspnet_core.csproj", "{CA3283FC-51D3-4639-B27A-D2B44F33A3BF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Middleware vs Filters in ASP.Net Core", "7 - Middleware vs Filters in ASP.Net Core", "{1297EA18-9BCE-4B9A-BD39-72F85A512941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "middleware_and_filters", "aspnet_core\7 - Middleware vs Filters in ASP.Net Core\middleware_and_filters\middleware_and_filters.csproj", "{5152DF37-88CA-4D39-8185-2841998FC96D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "middleware_and_filters", "aspnet_core\7 - Middleware vs Filters in ASP.Net Core\middleware_and_filters\middleware_and_filters.csproj", "{5152DF37-88CA-4D39-8185-2841998FC96D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 - Core CLR in ASP.Net Core", "8 - Core CLR in ASP.Net Core", "{A77520B7-53BC-4EA1-B5B7-44CD3B7658DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core_clr_in_aspnet_core", "aspnet_core\8 - Core CLR in ASP.Net Core\core_clr_in_aspnet_core\core_clr_in_aspnet_core.csproj", "{F427C0A6-20DF-4BD2-9FCD-47A8353BED06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "core_clr_in_aspnet_core", "aspnet_core\8 - Core CLR in ASP.Net Core\core_clr_in_aspnet_core\core_clr_in_aspnet_core.csproj", "{F427C0A6-20DF-4BD2-9FCD-47A8353BED06}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 - App.Run and App.Use in ASP.Net Core", "9 - App.Run and App.Use in ASP.Net Core", "{33249FD4-B865-4B46-AAF2-B88DA7236B3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "run_and_use_in_aspnet_core", "aspnet_core\9 - App.Run and App.Use in ASP.Net Core\run_and_use_in_aspnet_core\run_and_use_in_aspnet_core.csproj", "{FE5E4F09-0E61-4436-BCC9-5E91840C245F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "run_and_use_in_aspnet_core", "aspnet_core\9 - App.Run and App.Use in ASP.Net Core\run_and_use_in_aspnet_core\run_and_use_in_aspnet_core.csproj", "{FE5E4F09-0E61-4436-BCC9-5E91840C245F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Static Files in ASP.Net Core", "10 - Static Files in ASP.Net Core", "{DC5EC4DE-92E6-4D07-BBC0-4B13EA334B3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "static_files_in_aspnet_core", "aspnet_core\10 - Static Files in ASP.Net Core\static_files_in_aspnet_core\static_files_in_aspnet_core.csproj", "{68BC4EFD-0C3A-43A8-B57A-4AF0B8EABF42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "static_files_in_aspnet_core", "aspnet_core\10 - Static Files in ASP.Net Core\static_files_in_aspnet_core\static_files_in_aspnet_core.csproj", "{68BC4EFD-0C3A-43A8-B57A-4AF0B8EABF42}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 - Session and State Management", "11 - Session and State Management", "{6D2B550D-8A06-4D61-9709-D91D33F7CB96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session_and_state_management", "aspnet_core\11 - Session and State Management\session_and_state_management\session_and_state_management.csproj", "{70C3A19E-4723-4047-A93A-97D70212F01B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "session_and_state_management", "aspnet_core\11 - Session and State Management\session_and_state_management\session_and_state_management.csproj", "{70C3A19E-4723-4047-A93A-97D70212F01B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 - Routing in ASP.Net Core", "12 - Routing in ASP.Net Core", "{24DCC223-920B-4F58-BBB9-F0120FC336B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "routing_in_aspnet_core", "aspnet_core\12 - Routing in ASP.Net Core\routing_in_aspnet_core\routing_in_aspnet_core.csproj", "{73FB237D-0B12-4B5A-B2E9-4CBB12E0E022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "routing_in_aspnet_core", "aspnet_core\12 - Routing in ASP.Net Core\routing_in_aspnet_core\routing_in_aspnet_core.csproj", "{73FB237D-0B12-4B5A-B2E9-4CBB12E0E022}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13 - Services Lifetime in ASP.Net Core", "13 - Services Lifetime in ASP.Net Core", "{0BC0FBF7-FF4E-4694-B66E-7657235AB57A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "services_lifetime", "aspnet_core\13 - Services Lifetime in ASP.Net Core\services_lifetime\services_lifetime.csproj", "{7B1D9D38-7E4C-4325-8237-28E195C67251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "services_lifetime", "aspnet_core\13 - Services Lifetime in ASP.Net Core\services_lifetime\services_lifetime.csproj", "{7B1D9D38-7E4C-4325-8237-28E195C67251}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14 - Cross-Site Request Forgery (XSRF)", "14 - Cross-Site Request Forgery (XSRF)", "{9B5CA4DF-478A-400C-8312-C7AE7D698A65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cross_site_request_forgery", "aspnet_core\14 - Cross-Site Request Forgery (XSRF)\cross_site_request_forgery\cross_site_request_forgery.csproj", "{1E2684B0-E665-4341-925C-7F9D35B84DC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cross_site_request_forgery", "aspnet_core\14 - Cross-Site Request Forgery (XSRF)\cross_site_request_forgery\cross_site_request_forgery.csproj", "{1E2684B0-E665-4341-925C-7F9D35B84DC6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15 - Protect ASP.Net Core App from XSS Attack", "15 - Protect ASP.Net Core App from XSS Attack", "{FFA0296F-928F-474C-8165-B4BE45E01794}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prevent_xss_attack", "aspnet_core\15 - Protect ASP.Net Core App from XSS Attack\prevent_xss_attack\prevent_xss_attack.csproj", "{19D45C7D-AAD2-4EBA-92F5-E04ED33F9CE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prevent_xss_attack", "aspnet_core\15 - Protect ASP.Net Core App from XSS Attack\prevent_xss_attack\prevent_xss_attack.csproj", "{19D45C7D-AAD2-4EBA-92F5-E04ED33F9CE3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16 - CORS in ASP.Net Core", "16 - CORS in ASP.Net Core", "{1D6DAFAD-3AD3-4153-AC02-08FCA58268C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cors_in_aspnet_core", "aspnet_core\16 - CORS in ASP.Net Core\cors_in_aspnet_core\cors_in_aspnet_core.csproj", "{51F4593B-8620-46BB-854B-16DC46BD3D54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cors_in_aspnet_core", "aspnet_core\16 - CORS in ASP.Net Core\cors_in_aspnet_core\cors_in_aspnet_core.csproj", "{51F4593B-8620-46BB-854B-16DC46BD3D54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17 - Hosting Model in ASP.Net Core", "17 - Hosting Model in ASP.Net Core", "{0BDC613C-1E37-4E4B-8613-D4AE68F177FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hosting_models", "aspnet_core\17 - Hosting Models in ASP.Net Core\hosting_models\hosting_models.csproj", "{898C081E-5679-45E6-981E-D49C4BC91F05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hosting_models", "aspnet_core\17 - Hosting Models in ASP.Net Core\hosting_models\hosting_models.csproj", "{898C081E-5679-45E6-981E-D49C4BC91F05}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18 - Program.cs File in ASP.Net Core", "18 - Program.cs File in ASP.Net Core", "{DB5062D9-E516-4125-AC80-64EEDEED662A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "programcs_file_aspnet_core", "aspnet_core\18 - Program.cs File in ASP.Net Core\programcs_file_aspnet_core\programcs_file_aspnet_core.csproj", "{14B4C864-7B5A-48A9-874F-FC28B94797BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "programcs_file_aspnet_core", "aspnet_core\18 - Program.cs File in ASP.Net Core\programcs_file_aspnet_core\programcs_file_aspnet_core.csproj", "{14B4C864-7B5A-48A9-874F-FC28B94797BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19 - IHostedService in ASP.Net Core", "19 - IHostedService in ASP.Net Core", "{4B5A3AAE-4C76-4F5A-86DC-8DE5B5D2E9FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ihostedservice_in_aspnet_core", "aspnet_core\19 - IHostedService in ASP.Net Core\ihostedservice_in_aspnet_core\ihostedservice_in_aspnet_core.csproj", "{411CB983-CAE5-4EBB-9676-B7325BFB9A3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ihostedservice_in_aspnet_core", "aspnet_core\19 - IHostedService in ASP.Net Core\ihostedservice_in_aspnet_core\ihostedservice_in_aspnet_core.csproj", "{411CB983-CAE5-4EBB-9676-B7325BFB9A3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 - .Net Core vs .Net Standard", "20 - .Net Core vs .Net Standard", "{71229552-E562-49CD-A6C8-F0EAC0A1BDAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet_core_vs_dotnet_standard", "aspnet_core\20 - .Net Core vs .Net Standard\dotnet_core_vs_dotnet_standard\dotnet_core_vs_dotnet_standard.csproj", "{901D4A8A-9552-4156-9660-E40D4E8F2186}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet_core_vs_dotnet_standard", "aspnet_core\20 - .Net Core vs .Net Standard\dotnet_core_vs_dotnet_standard\dotnet_core_vs_dotnet_standard.csproj", "{901D4A8A-9552-4156-9660-E40D4E8F2186}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "21 - Synchronous and Asynchronous", "21 - Synchronous and Asynchronous", "{9D89DDDF-B3B1-4551-90DB-55B9AFDB4661}"
 EndProject
@@ -91,11 +91,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "synchronous_and_asynchronou
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "22 - Exception Handling in ASP.Net Core", "22 - Exception Handling in ASP.Net Core", "{C54FAED3-692F-41E3-A29A-14AB7487EEE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exception_handling", "aspnet_core\22 - Exception Handling in ASP.Net Core\exception_handling\exception_handling.csproj", "{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exception_handling", "aspnet_core\22 - Exception Handling in ASP.Net Core\exception_handling\exception_handling.csproj", "{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23 - CQRS in ASP.Net Core", "23 - CQRS in ASP.Net Core", "{9F532D28-626F-403B-BA40-BC2C98E82678}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cqrs_pattern_in_dotnet_core", "aspnet_core\23 - CQRS in ASP.Net Core\cqrs_pattern_in_dotnet_core\cqrs_pattern_in_dotnet_core.csproj", "{A023405A-77D3-4A51-A458-B05FA1392724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cqrs_pattern_in_dotnet_core", "aspnet_core\23 - CQRS in ASP.Net Core\cqrs_pattern_in_dotnet_core\cqrs_pattern_in_dotnet_core.csproj", "{A023405A-77D3-4A51-A458-B05FA1392724}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "24 - DDD Pattern in ASP.Net Core", "24 - DDD Pattern in ASP.Net Core", "{67741AEE-E4EA-4176-8A5B-BBEAA51C3F83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Pattern.Domain", "aspnet_core\24 - DDD Pattern in ASP.Net Core\DDD_Pattern.Domain\DDD_Pattern.Domain.csproj", "{23320716-4614-4154-989F-9FA933EA6986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Pattern.Application", "aspnet_core\24 - DDD Pattern in ASP.Net Core\DDD_Pattern.Application\DDD_Pattern.Application.csproj", "{EF417905-D573-4F61-8437-4BEE5EB72518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Pattern.Infrastructure", "aspnet_core\24 - DDD Pattern in ASP.Net Core\DDD_Pattern.Infrastructure\DDD_Pattern.Infrastructure.csproj", "{7DBEC2CE-5129-4494-8A1C-9CD972CE3C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Pattern.API", "aspnet_core\24 - DDD Pattern in ASP.Net Core\DDD_Pattern.API\DDD_Pattern.API.csproj", "{F53062FB-9215-47D5-A215-3C6E408B4690}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +205,22 @@ Global
 		{A023405A-77D3-4A51-A458-B05FA1392724}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A023405A-77D3-4A51-A458-B05FA1392724}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A023405A-77D3-4A51-A458-B05FA1392724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23320716-4614-4154-989F-9FA933EA6986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23320716-4614-4154-989F-9FA933EA6986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23320716-4614-4154-989F-9FA933EA6986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23320716-4614-4154-989F-9FA933EA6986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF417905-D573-4F61-8437-4BEE5EB72518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF417905-D573-4F61-8437-4BEE5EB72518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF417905-D573-4F61-8437-4BEE5EB72518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF417905-D573-4F61-8437-4BEE5EB72518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBEC2CE-5129-4494-8A1C-9CD972CE3C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBEC2CE-5129-4494-8A1C-9CD972CE3C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBEC2CE-5129-4494-8A1C-9CD972CE3C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBEC2CE-5129-4494-8A1C-9CD972CE3C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F53062FB-9215-47D5-A215-3C6E408B4690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53062FB-9215-47D5-A215-3C6E408B4690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53062FB-9215-47D5-A215-3C6E408B4690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53062FB-9215-47D5-A215-3C6E408B4690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -246,6 +272,11 @@ Global
 		{B1B582F1-35D1-40DE-AC5B-FB3C085E22BE} = {C54FAED3-692F-41E3-A29A-14AB7487EEE0}
 		{9F532D28-626F-403B-BA40-BC2C98E82678} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{A023405A-77D3-4A51-A458-B05FA1392724} = {9F532D28-626F-403B-BA40-BC2C98E82678}
+		{67741AEE-E4EA-4176-8A5B-BBEAA51C3F83} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{23320716-4614-4154-989F-9FA933EA6986} = {67741AEE-E4EA-4176-8A5B-BBEAA51C3F83}
+		{EF417905-D573-4F61-8437-4BEE5EB72518} = {67741AEE-E4EA-4176-8A5B-BBEAA51C3F83}
+		{7DBEC2CE-5129-4494-8A1C-9CD972CE3C07} = {67741AEE-E4EA-4176-8A5B-BBEAA51C3F83}
+		{F53062FB-9215-47D5-A215-3C6E408B4690} = {67741AEE-E4EA-4176-8A5B-BBEAA51C3F83}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
