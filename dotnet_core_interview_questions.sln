@@ -65,6 +65,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15 - Protect ASP.Net Core A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prevent_xss_attack", "aspnet_core\15 - Protect ASP.Net Core App from XSS Attack\prevent_xss_attack\prevent_xss_attack.csproj", "{19D45C7D-AAD2-4EBA-92F5-E04ED33F9CE3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16 - CORS in ASP.Net Core", "16 - CORS in ASP.Net Core", "{1D6DAFAD-3AD3-4153-AC02-08FCA58268C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cors_in_aspnet_core", "aspnet_core\16 - CORS in ASP.Net Core\cors_in_aspnet_core\cors_in_aspnet_core.csproj", "{51F4593B-8620-46BB-854B-16DC46BD3D54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +135,10 @@ Global
 		{19D45C7D-AAD2-4EBA-92F5-E04ED33F9CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19D45C7D-AAD2-4EBA-92F5-E04ED33F9CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19D45C7D-AAD2-4EBA-92F5-E04ED33F9CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F4593B-8620-46BB-854B-16DC46BD3D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F4593B-8620-46BB-854B-16DC46BD3D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F4593B-8620-46BB-854B-16DC46BD3D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F4593B-8620-46BB-854B-16DC46BD3D54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -166,6 +174,8 @@ Global
 		{1E2684B0-E665-4341-925C-7F9D35B84DC6} = {9B5CA4DF-478A-400C-8312-C7AE7D698A65}
 		{FFA0296F-928F-474C-8165-B4BE45E01794} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{19D45C7D-AAD2-4EBA-92F5-E04ED33F9CE3} = {FFA0296F-928F-474C-8165-B4BE45E01794}
+		{1D6DAFAD-3AD3-4153-AC02-08FCA58268C7} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{51F4593B-8620-46BB-854B-16DC46BD3D54} = {1D6DAFAD-3AD3-4153-AC02-08FCA58268C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
