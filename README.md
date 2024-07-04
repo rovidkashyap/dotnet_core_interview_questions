@@ -29,7 +29,13 @@
 27. Explain the concept of `Inversion of Control` in .Net Core? <br />
 28. Explain the concept of `Eager Loading` and `Lazy Loading` in Entity Framework Core?  <br />
 29. How do you Implement `Fluent API` in Entity Framework Core? <br />
-30. Explain the Concept of `AutoMapper` in ASP.Net Core? <br />
+30. Explain the Concept of `AutoMapper` in ASP.Net Core. <br />
+31. How do you optimize the performance of the .Net Core Application? <br />
+32. How do you deploy the .Net Core application to the Production Environment? <br />
+33. What are some best practices to publish .Net Core applications? <br />
+34. How to handle large File Uploads in .Net Core? <br />
+35. How to Implement `HTTP Caching`, `Client-Side Caching`, and `Server-Side Caching` in .Net Core? <br />
+36. How to handle different types of Authentication in .Net Core?
 
 This is a List of Questions mostly asked during the interview of Dot Net Developer Profile. Subject to Copyright.
 
