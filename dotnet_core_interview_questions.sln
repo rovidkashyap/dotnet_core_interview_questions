@@ -156,6 +156,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "34 - Large File Uploads in 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "large_file_uploads", "aspnet_core\34 - Large File Uploads in .Net Core\large_file_uploads\large_file_uploads.csproj", "{F417BCE8-ABF7-4E16-9101-3201857B9FFC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "35 - HTTP, ClientSide, ServerSide Caching", "35 - HTTP, ClientSide, ServerSide Caching", "{EFBA023C-31EC-4B88-9576-07B6A59F57A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "http_clientside_serverside", "aspnet_core\35 - HTTP, ClientSide, ServerSide Caching\http_clientside_serverside\http_clientside_serverside.csproj", "{13350BAA-1C07-41AC-AC33-750B81E8D159}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -322,6 +326,10 @@ Global
 		{F417BCE8-ABF7-4E16-9101-3201857B9FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F417BCE8-ABF7-4E16-9101-3201857B9FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F417BCE8-ABF7-4E16-9101-3201857B9FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13350BAA-1C07-41AC-AC33-750B81E8D159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13350BAA-1C07-41AC-AC33-750B81E8D159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13350BAA-1C07-41AC-AC33-750B81E8D159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13350BAA-1C07-41AC-AC33-750B81E8D159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -401,6 +409,8 @@ Global
 		{AAB169AC-FB25-49EB-B6EE-92A09C74AFD1} = {AFBC15A1-0C98-41F7-A475-EF991608623F}
 		{5BA57D3A-D869-4C17-AD7B-DF0653D64EA0} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{F417BCE8-ABF7-4E16-9101-3201857B9FFC} = {5BA57D3A-D869-4C17-AD7B-DF0653D64EA0}
+		{EFBA023C-31EC-4B88-9576-07B6A59F57A3} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{13350BAA-1C07-41AC-AC33-750B81E8D159} = {EFBA023C-31EC-4B88-9576-07B6A59F57A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
