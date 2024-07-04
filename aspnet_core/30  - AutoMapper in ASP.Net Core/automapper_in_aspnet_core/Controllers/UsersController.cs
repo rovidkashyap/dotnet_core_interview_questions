@@ -31,4 +31,5 @@ namespace automapper_in_aspnet_core.Controllers
 
             return Ok(userDto);
         }
+    }
 }

@@ -160,6 +160,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "35 - HTTP, ClientSide, Serv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "http_clientside_serverside", "aspnet_core\35 - HTTP, ClientSide, ServerSide Caching\http_clientside_serverside\http_clientside_serverside.csproj", "{13350BAA-1C07-41AC-AC33-750B81E8D159}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "36 - Authentication in .Net Core", "36 - Authentication in .Net Core", "{062BF901-95F7-44CB-8D5E-D1E089896FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authentication_in_dotnet_core", "aspnet_core\36 - Authentication in .Net Core\authentication_in_dotnet_core\authentication_in_dotnet_core.csproj", "{F20D7B09-DBEE-4C57-A176-E4F7F4661A9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -330,6 +334,10 @@ Global
 		{13350BAA-1C07-41AC-AC33-750B81E8D159}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13350BAA-1C07-41AC-AC33-750B81E8D159}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13350BAA-1C07-41AC-AC33-750B81E8D159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20D7B09-DBEE-4C57-A176-E4F7F4661A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20D7B09-DBEE-4C57-A176-E4F7F4661A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20D7B09-DBEE-4C57-A176-E4F7F4661A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20D7B09-DBEE-4C57-A176-E4F7F4661A9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -411,6 +419,8 @@ Global
 		{F417BCE8-ABF7-4E16-9101-3201857B9FFC} = {5BA57D3A-D869-4C17-AD7B-DF0653D64EA0}
 		{EFBA023C-31EC-4B88-9576-07B6A59F57A3} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{13350BAA-1C07-41AC-AC33-750B81E8D159} = {EFBA023C-31EC-4B88-9576-07B6A59F57A3}
+		{062BF901-95F7-44CB-8D5E-D1E089896FE2} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{F20D7B09-DBEE-4C57-A176-E4F7F4661A9C} = {062BF901-95F7-44CB-8D5E-D1E089896FE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
