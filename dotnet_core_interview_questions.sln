@@ -144,6 +144,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "31 - Optimize Performance o
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "optimize_performance", "aspnet_core\31 - Optimize Performance of .Net App\optimize_performance\optimize_performance.csproj", "{35B0FC42-5836-4156-A560-FD2D82E94449}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "32 - Deploy .Net Core App to Production", "32 - Deploy .Net Core App to Production", "{F8DBAA14-D8E4-4288-8DD7-416623698DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deploy_to_production", "aspnet_core\32 - Deploy .Net Core App to Production\deploy_to_production\deploy_to_production.csproj", "{502E637E-9DD9-416A-A4F8-306FFC2600AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -298,6 +302,10 @@ Global
 		{35B0FC42-5836-4156-A560-FD2D82E94449}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35B0FC42-5836-4156-A560-FD2D82E94449}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35B0FC42-5836-4156-A560-FD2D82E94449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502E637E-9DD9-416A-A4F8-306FFC2600AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502E637E-9DD9-416A-A4F8-306FFC2600AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502E637E-9DD9-416A-A4F8-306FFC2600AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502E637E-9DD9-416A-A4F8-306FFC2600AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -371,6 +379,8 @@ Global
 		{119A92B7-2A0E-4AE7-8AB4-809154258807} = {088BB3B8-5C92-4291-8E3B-1AAA2D1F9FED}
 		{3B832B49-B471-443B-8A3F-ECFC0301A43C} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
 		{35B0FC42-5836-4156-A560-FD2D82E94449} = {3B832B49-B471-443B-8A3F-ECFC0301A43C}
+		{F8DBAA14-D8E4-4288-8DD7-416623698DD7} = {C034C772-7C0F-4560-981C-9E47A4C4A731}
+		{502E637E-9DD9-416A-A4F8-306FFC2600AA} = {F8DBAA14-D8E4-4288-8DD7-416623698DD7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1313BF86-0EB6-451F-905F-0C92B0B244F4}
